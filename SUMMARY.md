@@ -8,4 +8,6 @@
 * [第二章 多层神经网络](chapter2.md)
   * [2.1 多层结构](section2/example1.md)
     * [2.1.1 神经网络](section2/section2-1/example1.md)
+    * [2.1.2 循环神经网络](section2/section2-1/example2.md)
+
 
