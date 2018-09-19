@@ -3,3 +3,4 @@
 $$
 h_{t}=\sigma\left(w_{i}x_{t}+u_{i}h_{t-1}\right)\tag {2.4}
 $$
+![](/assets/1537317995(1).png)
