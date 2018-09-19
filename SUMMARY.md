@@ -9,4 +9,6 @@
   * [2.1 多层结构](chapter2/example1/README.md)
     * [2.1.1 神经网络](chapter2/example1/example1.md)
     * [2.1.2 循环神经网络](chapter2/example1/example2.md)
+    * [2.1.3 卷积神经网络](chapter2/example1/example3.md)
+
 
