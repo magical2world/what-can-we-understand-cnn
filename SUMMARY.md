@@ -11,4 +11,3 @@
     * [2.1.2 循环神经网络](chapter2/example1/example2.md)
     * [2.1.3 卷积神经网络](chapter2/example1/example3.md)
 
-
