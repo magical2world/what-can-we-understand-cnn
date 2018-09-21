@@ -13,9 +13,3 @@
     * [2.1.4 生成对抗网络](chapter2/example1/example4.md)
     * [2.1.5 多层神经网络的训练](chapter2/example1/example5.md)
 
-
-
-
-
-
-
