@@ -16,13 +16,3 @@
   * [2.2 空间卷积神经网络](chapter2/example2/README.md)
     * [2.1.6 目前的卷积神经网络的一些主流架构](chapter2/example2/example1.md)
 
-
-
-
-
-
-
-
-
-
-
