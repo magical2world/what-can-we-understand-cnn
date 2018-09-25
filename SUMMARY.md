@@ -14,6 +14,8 @@
     * [2.1.5 多层神经网络的训练](chapter2/example1/example5.md)
     * [2.1.6 一句话描述迁移学习](chapter2/example1/example6.md)
   * [2.2 空间卷积神经网络](chapter2/example2/README.md)
+    * [2.1.6 目前的卷积神经网络的一些主流架构](chapter2/example2/example1.md)
+
 
 
 
