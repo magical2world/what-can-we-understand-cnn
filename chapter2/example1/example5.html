@@ -1,0 +1,470 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2.1.5 多层神经网络的训练 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="example6.html" />
+    
+    
+    <link rel="prev" href="example4.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../chapter1/">
+            
+                <a href="../../chapter1/">
+            
+                    
+                    第一章 简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../chapter1/example1.html">
+            
+                <a href="../../chapter1/example1.html">
+            
+                    
+                    1.1 动机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../chapter1/example2.html">
+            
+                <a href="../../chapter1/example2.html">
+            
+                    
+                    1.2 目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../chapter1/example3.html">
+            
+                <a href="../../chapter1/example3.html">
+            
+                    
+                    1.3 大纲
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    第二章 多层神经网络
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    2.1 多层结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="example1.html">
+            
+                <a href="example1.html">
+            
+                    
+                    2.1.1 神经网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="example2.html">
+            
+                <a href="example2.html">
+            
+                    
+                    2.1.2 循环神经网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="example3.html">
+            
+                <a href="example3.html">
+            
+                    
+                    2.1.3 卷积神经网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="example4.html">
+            
+                <a href="example4.html">
+            
+                    
+                    2.1.4 生成对抗网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.1.5" data-path="example5.html">
+            
+                <a href="example5.html">
+            
+                    
+                    2.1.5 多层神经网络的训练
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.6" data-path="example6.html">
+            
+                <a href="example6.html">
+            
+                    
+                    2.1.6 一句话描述迁移学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../example2/">
+            
+                <a href="../example2/">
+            
+                    
+                    2.2 空间卷积神经网络
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../example2/example1.html">
+            
+                <a href="../example2/example1.html">
+            
+                    
+                    2.2.1 目前的卷积神经网络的一些主流架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../example2/example2.html">
+            
+                <a href="../example2/example2.html">
+            
+                    
+                    2.2.2 卷积神经网络的不变性
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >2.1.5 多层神经网络的训练</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="215-&#x591A;&#x5C42;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;">2.1.5 &#x591A;&#x5C42;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;</h1>
+<p>&#x6B63;&#x5982;&#x524D;&#x6587;&#x6240;&#x8FF0;&#xFF0C;&#x5404;&#x79CD;&#x591A;&#x5C42;&#x67B6;&#x6784;&#x7684;&#x6210;&#x529F;&#x5F88;&#x5927;&#x7A0B;&#x5EA6;&#x4E0A;&#x4F9D;&#x8D56;&#x4E8E;&#x5B83;&#x4EEC;&#x7684;&#x5B66;&#x4E60;&#x7B97;&#x6CD5;&#x7684;&#x6210;&#x529F;&#x3002;&#x7136;&#x800C;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x901A;&#x5E38;&#x4F1A;&#x5148;&#x4F9D;&#x8D56;&#x4E8E;&#x57FA;&#x4E8E;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x7684;&#x9884;&#x8BAD;&#x7EC3;&#xFF0C;&#x5982;2.1.1&#x8282;&#x63CF;&#x8FF0;&#x7684;&#x90A3;&#x6837;&#x3002;&#x7136;&#x540E;&#x4F1A;&#x4F7F;&#x7528;&#x5927;&#x591A;&#x6570;&#x591A;&#x5C42;&#x67B6;&#x6784;&#x90FD;&#x4F1A;&#x4F7F;&#x7528;&#x7684;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x7B56;&#x7565;&#x8FDB;&#x884C;&#x8FDB;&#x4E00;&#x6B65;&#x8BAD;&#x7EC3;&#x3002;&#x8FD9;&#x4E00;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x901A;&#x5E38;&#x4F9D;&#x8D56;&#x4E8E;&#x57FA;&#x4E8E;&#x68AF;&#x5EA6;&#x7684;&#x8BEF;&#x5DEE;&#x53CD;&#x5411;&#x4F20;&#x9012;&#x7B97;&#x6CD5;&#x3002;&#x7531;&#x4E8E;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x6CD5;&#x7684;&#x7B80;&#x5355;&#x6027;&#xFF0C;&#x5B83;&#x88AB;&#x5E7F;&#x6CDB;&#x7684;&#x5E94;&#x7528;&#x5230;&#x591A;&#x5C42;&#x7ED3;&#x6784;&#x7684;&#x5B66;&#x4E60;&#x4E2D;&#x3002;&#x5B83;&#x901A;&#x8FC7;&#x6700;&#x5C0F;&#x5316;&#x4E00;&#x4E2A;&#x5E73;&#x6ED1;&#x7684;&#x8BEF;&#x5DEE;&#x51FD;&#x6570;$$E\left(w\right)$$,&#x5229;&#x7528;&#x4E0B;&#x9762;&#x7684;&#x516C;&#x5F0F;&#x8FDB;&#x884C;&#x4E0D;&#x65AD;&#x5730;&#x8FED;&#x4EE3;&#xFF1A;</p>
+<p>$$
+w<em>{k}=w</em>{k-1}-\alpha\frac{\partial E(w)}{\partial w}\tag {2.11}</p>
+<p>$$</p>
+<p>&#x8FD9;&#x91CC;$$w$$&#x662F;&#x7F51;&#x7EDC;&#x7684;&#x53C2;&#x6570;&#xFF0C;$$\alpha$$&#x662F;&#x63A7;&#x5236;&#x6536;&#x655B;&#x901F;&#x5EA6;&#x7684;&#x5B66;&#x4E60;&#x7387;&#xFF0C;$$\frac{\partial E(w)}{\partial w}$$&#x662F;&#x5728;&#x8BAD;&#x7EC3;&#x96C6;&#x4E0A;&#x8BA1;&#x7B97;&#x5F97;&#x5230;&#x7684;&#x8BEF;&#x5DEE;&#x7684;&#x68AF;&#x5EA6;&#x3002;&#x7531;&#x4E8E;&#x94FE;&#x5F0F;&#x6C42;&#x5BFC;&#x6CD5;&#x5219;&#x6765;&#x8BA1;&#x7B97;&#x8BEF;&#x5DEE;&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x5C42;&#x7684;&#x7F51;&#x7EDC;&#x53C2;&#x6570;&#x7684;&#x5BFC;&#x6570;&#x4F7F;&#x5F97;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x6CD5;&#x5F88;&#x9002;&#x5408;&#x7528;&#x6765;&#x8BAD;&#x7EC3;&#x591A;&#x5C42;&#x7F51;&#x7EDC;&#x3002;&#x7136;&#x800C;&#x867D;&#x7136;&#x8BEF;&#x5DEE;&#x53CD;&#x5411;&#x4F20;&#x9012;&#x7B97;&#x6CD5;&#x5DF2;&#x7ECF;&#x63D0;&#x51FA;&#x597D;&#x591A;&#x5E74;&#x4E86;[16,146]&#xFF0C;&#x4F46;&#x5B83;&#x771F;&#x6B63;&#x662F;&#x5728;&#x591A;&#x5C42;&#x6846;&#x67B6;&#x7684;&#x80CC;&#x666F;&#x4E0B;&#x624D;&#x5F97;&#x5230;&#x666E;&#x53CA;&#x7684;[125]&#x3002;&#x4E8B;&#x5B9E;&#x4E0A;&#x771F;&#x6B63;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x7684;&#x662F;&#x968F;&#x673A;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x6CD5;&#xFF0C;&#x5B83;&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x96C6;&#x7684;&#x5B50;&#x96C6;&#x6765;&#x4EE3;&#x66FF;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x96C6;&#x6765;&#x8BA1;&#x7B97;&#x8BEF;&#x5DEE;&#x7684;&#x68AF;&#x5EA6;&#xFF0C;&#x4F7F;&#x5F97;&#x8BAD;&#x7EC3;&#x65F6;&#x95F4;&#x5927;&#x5927;&#x51CF;&#x5C11;&#x3002; &#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x6CD5;&#x7684;&#x4E00;&#x4E2A;&#x4E25;&#x91CD;&#x7684;&#x95EE;&#x9898;&#x662F;&#x5B66;&#x4E60;&#x7387;$$\alpha$$&#x7684;&#x9009;&#x62E9;&#x3002;&#x5B66;&#x4E60;&#x7387;&#x9009;&#x7684;&#x592A;&#x5C0F;&#x4F1A;&#x5BFC;&#x81F4;&#x6536;&#x655B;&#x901F;&#x5EA6;&#x5F88;&#x6162;&#xFF0C;&#x5B66;&#x4E60;&#x7387;&#x9009;&#x7684;&#x5F88;&#x5927;&#x53EF;&#x80FD;&#x4F1A;&#x5BFC;&#x81F4;&#x4E00;&#x76F4;&#x56F4;&#x7ED5;&#x7740;&#x6781;&#x503C;&#x70B9;&#x53CD;&#x590D;&#x6CE2;&#x52A8;&#x800C;&#x65E0;&#x6CD5;&#x5230;&#x8FBE;&#x6700;&#x4F73;&#x72B6;&#x6001;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x65B9;&#x6CD5;&#x88AB;&#x63D0;&#x51FA;&#x6765;&#x5BF9;&#x968F;&#x673A;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x6CD5;&#x8FDB;&#x884C;&#x6539;&#x8FDB;&#x3002;&#x5B83;&#x4EEC;&#x4E4B;&#x4E2D;&#x6700;&#x7B80;&#x5355;&#x7684;&#x5C31;&#x662F;&#x5728;&#x968F;&#x673A;&#x68AF;&#x5EA6;&#x7B97;&#x6CD5;&#x4E2D;&#x6DFB;&#x52A0;&#x52A8;&#x91CF;(momentum)[137]&#xFF0C;&#x901A;&#x8FC7;&#x8DDF;&#x8E2A;&#x4E00;&#x6B21;&#x8FED;&#x4EE3;&#x5230;&#x53E6;&#x4E00;&#x6B21;&#x8FED;&#x4EE3;&#x7684;&#x66F4;&#x65B0;&#x91CF;&#xFF0C;&#x5982;&#x679C;&#x68AF;&#x5EA6;&#x7684;&#x65B9;&#x5411;&#x5728;&#x4E00;&#x6B21;&#x6B21;&#x66F4;&#x65B0;&#x4E2D;&#x59CB;&#x7EC8;&#x4FDD;&#x6301;&#x76F8;&#x540C;&#xFF0C;&#x5219;&#x52A8;&#x91CF;&#x4F1A;&#x5229;&#x7528;&#x8FDB;&#x4E00;&#x6B65;&#x63A8;&#x52A8;&#x6574;&#x4E2A;&#x5B66;&#x4E60;&#x8FC7;&#x7A0B;&#xFF0C;&#x5176;&#x516C;&#x5F0F;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
+<p>$$
+w<em>{k}=w</em>{k-1}-\alpha\frac{\partial E(w)}{\partial w}-\gamma (\frac{\partial E(w)}{\partial w})_{t-1}\tag {2.12}</p>
+<p>$$</p>
+<p>&#x8FD9;&#x91CC;$$\gamma$$&#x63A7;&#x5236;&#x7740;&#x52A8;&#x91CF;&#x7684;&#x5927;&#x5C0F;&#x3002;&#x53E6;&#x4E00;&#x79CD;&#x7B80;&#x5355;&#x7684;&#x65B9;&#x6CD5;&#x662F;&#x8BA9;&#x5B66;&#x4E60;&#x7387;&#x968F;&#x7740;&#x65F6;&#x95F4;&#x7684;&#x63A8;&#x79FB;&#x6765;&#x9010;&#x6E10;&#x4E0B;&#x964D;&#xFF0C;&#x4F46;&#x662F;&#x5B66;&#x4E60;&#x7387;&#x8BE5;&#x5728;&#x4F55;&#x65F6;&#x4E0B;&#x964D;&#x5F88;&#x96BE;&#x5728;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x5F00;&#x59CB;&#x4E4B;&#x524D;&#x5C31;&#x9884;&#x5148;&#x8BBE;&#x5B9A;&#xFF0C;&#x800C;&#x4E14;&#x5B66;&#x4E60;&#x901F;&#x7387;&#x8BE5;&#x5728;&#x4F55;&#x65F6;&#x4E0B;&#x964D;&#x8FD8;&#x4E0E;&#x6570;&#x636E;&#x7684;&#x5206;&#x5E03;&#x60C5;&#x51B5;&#x6709;&#x7740;&#x5F88;&#x5927;&#x7684;&#x8054;&#x7CFB;&#x3002;&#x5176;&#x4ED6;&#x7684;&#x4E00;&#x4E9B;&#x65B9;&#x6CD5;&#xFF08;&#x4F8B;&#x5982;Adagrad[34],Adadelta[152],Adam[86]&#xFF09;&#x80FD;&#x591F;&#x4F7F;&#x5B66;&#x4E60;&#x7387;&#x5728;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x4E2D;&#x968F;&#x7740;&#x6BCF;&#x4E2A;&#x53C2;&#x6570;$$w_{i}$$&#x6765;&#x81EA;&#x884C;&#x6539;&#x53D8;,&#x5BF9;&#x53D8;&#x5316;&#x5E45;&#x5EA6;&#x5927;&#x7684;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x5C0F;&#x7684;&#x5B66;&#x4E60;&#x7387;&#xFF0C;&#x5BF9;&#x53D8;&#x5316;&#x5C0F;&#x7684;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x5927;&#x7684;&#x5B66;&#x4E60;&#x7387;&#x3002;&#x5177;&#x4F53;&#x7684;&#x5173;&#x4E8E;&#x8FD9;&#x4E09;&#x79CD;&#x4F18;&#x5316;&#x7B97;&#x6CD5;&#x7684;&#x6BD4;&#x8F83;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;&#x6587;&#x732E;[124]&#x3002; &#x4F7F;&#x7528;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x6CD5;&#x53CA;&#x5176;&#x53D8;&#x4F53;&#x7684;&#x4E00;&#x5927;&#x7F3A;&#x70B9;&#x662F;&#x9700;&#x8981;&#x5927;&#x91CF;&#x7684;&#x5E26;&#x6807;&#x7B7E;&#x6570;&#x636E;&#x6765;&#x8BAD;&#x7EC3;&#x3002;&#x907F;&#x514D;&#x8FD9;&#x4E00;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#x662F;&#x91C7;&#x7528;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x3002;&#x4E00;&#x4E2A;&#x6D41;&#x884C;&#x8BAD;&#x7EC3;&#x6D45;&#x5C42;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x65B9;&#x6CD5;&#x662F;&#x57FA;&#x4E8E;&#x9884;&#x6D4B;&#x7A00;&#x758F;&#x5206;&#x89E3;&#xFF08;PSD&#xFF09;[85]&#x7684;&#x65B9;&#x6CD5;&#x3002;PSD&#x901A;&#x8FC7;&#x5B66;&#x4E60;&#x5B8C;&#x5168;&#x7684;&#x6EE4;&#x6CE2;&#x5668;&#x7684;&#x96C6;&#x5408;&#x6765;&#x91CD;&#x6784;&#x56FE;&#x50CF;</p>
+<p>$$
+L\left(X,Y;B\right)=\begin{Vmatrix} X-BY \end{Vmatrix}^2_{2}\tag {2.13}</p>
+<p>$$</p>
+<p>PSD&#x662F;&#x5C06;&#x7A00;&#x758F;&#x7F16;&#x7801;&#x4E0E;&#x5377;&#x79EF;&#x7ED3;&#x6784;&#x76F8;&#x7ED3;&#x5408;&#x7684;&#x4EA7;&#x7269;&#xFF0C;&#x5B83;&#x7684;&#x4F18;&#x5316;&#x8FC7;&#x7A0B;&#x662F;&#x901A;&#x8FC7;&#x6700;&#x5C0F;&#x5316;&#x4E0B;&#x9762;&#x7684;&#x91CD;&#x6784;&#x8BEF;&#x5DEE;&#x6765;&#x5B9E;&#x73B0;&#x7684;&#xFF1A;</p>
+<p>$$
+L\left(X,Y;B\right)=\begin{Vmatrix} X-BY\end{Vmatrix}^2<em>{2}+\lambda\begin{Vmatrix} Y \end{Vmatrix}</em>{1}+\alpha\begin{Vmatrix}F(X;G,W,D)\end{Vmatrix}^2_{2}\tag {2.14}</p>
+<p>$$</p>
+<p>&#x8FD9;&#x91CC;$$F\left(X;G,W,D\right)=Gtanh\left(WX+D\right)$$&#xFF0C;$$W$$,$$D$$,$$G$$&#x5206;&#x522B;&#x662F;&#x7F51;&#x7EDC;&#x7684;&#x6743;&#x91CD;&#x3001;&#x504F;&#x5DEE;&#x53CA;&#x6536;&#x76CA;&#xFF08;&#x6216;&#x8005;&#x662F;&#x6807;&#x51C6;&#x5316;&#x56E0;&#x7D20;&#xFF09;&#x3002;&#x901A;&#x8FC7;&#x6700;&#x5C0F;&#x5316;&#x516C;&#x5F0F;2.14&#xFF0C;&#x8BE5;&#x7B97;&#x6CD5;&#x53EF;&#x4EE5;&#x5B66;&#x4E60;&#x5230;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x56FE;&#x50CF;&#x7684;&#x8868;&#x793A;$$Y$$&#x6765;&#x91CD;&#x6784;&#x8F93;&#x5165;$$X$$&#xFF0C;&#x5B83;&#x548C;&#x9884;&#x6D4B;&#x7684;&#x8868;&#x793A;$$F$$&#x76F8;&#x4F3C;&#x3002;&#x800C;&#x516C;&#x5F0F;2.14&#x7684;&#x7B2C;&#x4E8C;&#x9879;&#x53EF;&#x4EE5;&#x4F7F;&#x5B66;&#x5230;&#x7684;&#x8868;&#x793A;&#x5177;&#x6709;&#x7A00;&#x758F;&#x6027;&#x3002;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x7F51;&#x7EDC;&#x7684;&#x4F18;&#x5316;&#x5206;&#x4E3A;&#x4E24;&#x6B65;&#xFF0C;&#x5148;&#x662F;&#x56FA;&#x5B9A;&#x53C2;&#x6570;$$\left(B,G,W,D\right)$$&#x6765;&#x901A;&#x8FC7;&#x6700;&#x5C0F;&#x5316;&#x516C;&#x5F0F;2.14&#x6765;&#x4F18;&#x5316;$$Y$$&#xFF0C;&#x7136;&#x540E;&#x518D;&#x56FA;&#x5B9A;$$Y$$&#x6765;&#x5B66;&#x4E60;&#x5176;&#x5B83;&#x53C2;&#x6570;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;PSD&#x5BF9;&#x4E8E;&#x6BCF;&#x4E2A;&#x56FE;&#x50CF;&#x7684;&#x8865;&#x4E01;&#x90FD;&#x6709;&#x4E00;&#x7EC4;&#x53C2;&#x6570;&#x9700;&#x8981;&#x4ECE;&#x56FE;&#x50CF;&#x7684;&#x4E0D;&#x540C;&#x8865;&#x4E01;&#x5904;&#x6765;&#x8BAD;&#x7EC3;$$\left(G,W,D\right)$$&#xFF0C;&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#x5C31;&#x662F;&#x5BF9;&#x4E8E;&#x56FE;&#x50CF;&#x7684;&#x4E0D;&#x540C;&#x90E8;&#x5206;&#xFF0C;&#x90FD;&#x6709;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x6838;&#x9700;&#x8981;&#x53BB;&#x5B66;&#x4E60;&#x6765;&#x5BF9;&#x56FE;&#x50CF;&#x8FDB;&#x884C;&#x91CD;&#x7EC4;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="example4.html" class="navigation navigation-prev " aria-label="Previous page: 2.1.4 生成对抗网络">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="example6.html" class="navigation navigation-next " aria-label="Next page: 2.1.6 一句话描述迁移学习">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2.1.5 多层神经网络的训练","level":"1.3.1.5","depth":3,"next":{"title":"2.1.6 一句话描述迁移学习","level":"1.3.1.6","depth":3,"path":"chapter2/example1/example6.md","ref":"chapter2/example1/example6.md","articles":[]},"previous":{"title":"2.1.4 生成对抗网络","level":"1.3.1.4","depth":3,"path":"chapter2/example1/example4.md","ref":"chapter2/example1/example4.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2/example1/example5.md","mtime":"2018-09-25T07:29:05.432Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-26T03:09:42.914Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
