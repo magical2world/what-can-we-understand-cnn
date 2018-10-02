@@ -5,4 +5,4 @@ $$
 \binom {x^s_{i}} {x^s_{i}}=\begin{bmatrix}\theta_{11}&\theta_{12}&\theta_{13}\\ \theta_{21}&\theta_{22}&\theta_{23}\end{bmatrix}\begin{pmatrix}x^t_{i} \\ y^t_{i} \\ 1\end{pmatrix}
 $$
 最后sampler通过特征图$$U$$，采样的坐标及像素值$$\left(x^s_{i},y^s_{i}\right)$$来填充得到在$$\left(x^t_{i},y^t_{i}\right)$$输出特征图$$V$$，如图2.12（b）所示。在卷积神经网络的每一层添加一个这样的结构使得模型可以学习到应对输入各种变化的适应性，提高它的不变性从而提高识别准确率。
-近期的两种有名的网络模型Deformable卷积神经网络[29]及Active神经网络[78]通过介绍一个灵活的卷积模块来致力于增强卷积神经网络应对几何变换的能力。这些方法的根本思想都是通过避免使用刚性的卷积，这可以使卷积更好的学习到感兴趣的区域（Regions of Inerest,RoI）
+近期的两种有名的网络模型Deformable卷积神经网络[29]及Active神经网络[78]通过介绍一个灵活的卷积模块来致力于增强卷积神经网络应对几何变换的能力。这些方法的根本思想都是通过避免使用刚性的卷积，这可以使卷积更好的学习到感兴趣的区域（Regions of Inerest,RoI）。这个想法类似于空间变换网络的localization net及grid generator所做的事。
