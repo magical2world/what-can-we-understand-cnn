@@ -17,5 +17,7 @@
         * [2.2.1 目前的卷积神经网络的一些主流架构](chapter2/example2/example1.md)
         * [2.2.2 卷积神经网络的不变性](chapter2/example2/example2.md)
         * [2.2.2 有关卷积神经网络的定位](chapter2/example2/example3.md)
+    * [2.3 时空卷积神经网络](chapter2/example3/README.md)
+
 
 
