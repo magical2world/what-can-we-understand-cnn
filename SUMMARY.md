@@ -20,6 +20,8 @@
     * [2.3 时空卷积神经网络](chapter2/example3/README.md)
         * [2.3.1 基于LSTM的时空卷积神经网络](chapter2/example3/example1.md)
         * [2.3.2 3D卷积神经网络](chapter2/example3/example2.md)
+    * [2.3 本章综述](chapter2/example4/README.md)
+
 
 
 
