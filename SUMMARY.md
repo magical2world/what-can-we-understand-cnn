@@ -22,6 +22,8 @@
         * [2.3.2 3D卷积神经网络](chapter2/example3/example2.md)
     * [2.4 本章综述](chapter2/example4/README.md)
 * [第三章 理解卷积神经网络的基本模块](chapter3/README.md)
+    * [3.1 卷积层](chapter3/example1/README.md)
+
 
 
 
