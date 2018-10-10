@@ -25,6 +25,33 @@
 * [第三章 理解卷积神经网络的基本模块](chapter3/README.md)
     * [3.1 卷积层](chapter3/example1/README.md)
         * [3.1.1 生物学观点](chapter3/example1/example1.md)
+        * [3.1.2 理论观点](chapter3/example1/example2.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
