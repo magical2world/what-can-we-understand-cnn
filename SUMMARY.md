@@ -27,6 +27,8 @@
         * [3.1.1 生物学观点](chapter3/example1/example1.md)
         * [3.1.2 理论观点](chapter3/example1/example2.md)
 * [第四章 当前状态](chapter4/README.md)
+    * [4.1 当前趋势](chapter4/example1/README.md)
+
 
 
 
